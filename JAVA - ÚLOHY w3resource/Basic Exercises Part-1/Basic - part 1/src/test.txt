@@ -1,0 +1,3 @@
+Ahoj, moje meno je Lukas.
+Programovanie je zivot.
+Java > C#.

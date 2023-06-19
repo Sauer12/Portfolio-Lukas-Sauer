@@ -1,0 +1,45 @@
+Konzolova hra - Fight Duel
+
+-V hre budes mat bojovnika, budes si moct vybrat z 3 postav: Hunter, Archer, Warrior. Kazda postava bude mat rozdielne schopnosti. 
+Postavy si budu moct kupovat itemy, niektore itemy budu specificke pre postavu zatial co niektore si budes moct kupit s lubovolnou
+postavou. V hre budes mat moznost registracie a prihlasenia sa.(Mozne dorobit neskor vzhladom na to, ze neovladam databazy so 
+spojenim Javy a taktiez neviem citat/zapisovat so suborou.) Princip hry bude postaveny na tom, ze budes bojovat 1 vs 1 proti inemu
+bojovnikovi. Budes moct bojovat proti inemu hracovi alebo proti pocitacu/botovi. Postava bude mat 10 levelov a cim vyssi level budes,
+tym silnejsim sa stanes. 
+
+Hra -
+
+Arena = 
+
+Obchod -
+
+ 
+
+Postava - Abstract class
+	.zivot
+	.basic attack
+	.mana
+
+	*kuzlo 1
+	*kuzlo 2
+	*kuzlo 3
+
+Hunter - Kuzlo1(Brutal attack): Hunter zautoci s kuzlom, ktore umoznuje udelit crital hit.
+			Critial hit: lvl 1-50%, lvl 2-55%... 3(60%), 4(65%), 5(70%), 6(75%), 7(80%), 8(85%), 9(90%), 10(100%)
+	 Kuzlo2(Power potion): Hunter vypije elixir sily, ktory mu zvysi attack o danu hodnotu. Dane kolo hunter nemoze zautocit.
+
+	 Kuzlo3(Hunter Ultimate): Hunter zautoci a ubere nepriatelskej postave konkretne urcite % zivota z jej zostavajucich HP.
+		
+
+Archer - Kuzlo1(Critical arrow): Archer vystreli sip, ktory ustedri critical hit.
+	 Kuzlo2(Heal potion): Archer vypije elixir zivota, ktory mu prida zivot o danu hodnotou. Dane kolo Archer nemoze zautocit.
+	 Kuzlo3(Stun arrow): Archer vystreli na nepriatela sip, ktory ubere nepriatelovi zivot + ho na 1 kolo stunne.
+
+Warrior - Kuzlo1(Sword power): Warrior sekne mecom, ktory ustedri vacsi damage ako basic attack.
+	  Kuzlo2(Armor potion): Warrior vypije elixir, ktory mu zvysi armor.
+	  Kuzlo3(Power hit): Warrior sekne mecom nepriatela, ktory ustedri masivny damage.	
+
+1. Spravit hru, kde budu proti sebe bojovat dvaja hraci.
+
+Armor - za kazdych 1 bod armoru ma postava sancu na 0.5% miss hitu a zaroven za kazdy 1 bod armoru sa snizi damage nepriatelskej 
+	postavy o 0.2

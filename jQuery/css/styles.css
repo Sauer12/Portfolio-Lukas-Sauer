@@ -1,0 +1,29 @@
+*, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.red-box {
+    width: 250px;
+    height: 250px;
+    background: red;
+}
+
+.blue-box {
+    width: 250px;
+    height: 250px;
+    background: blue;
+}
+
+.green-box {
+    width: 250px;
+    height: 250px;
+    background: green;
+}
+
+.yellow-box {
+    width: 250px;
+    height: 250px;
+    background: yellow;
+}

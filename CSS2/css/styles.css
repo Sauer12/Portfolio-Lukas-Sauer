@@ -1,0 +1,46 @@
+* {
+    outline: 3px solid black;
+    margin: 0;
+}
+
+body {
+    color: #fff;
+    background: rgb(47, 95, 228);    
+    text-align: center;
+    /* padding: 25px; */
+    font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+    /* -webkit-font-smoothing: antialiased; */
+}
+
+h1 {
+    font-family: Papyrus,fantasy, Arial, sans-serif; 
+    font-size: 100px;
+    background: #853857;
+}
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.special {
+    background: rgb(158, 79, 79);
+    width: 300px;
+    margin: 20px auto;
+}
+
+p {
+    line-height: 22px;    
+}
+
+a {
+    background: #fff;
+    text-decoration: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+ }
+
+ a:hover {
+     background: #853857;
+ }

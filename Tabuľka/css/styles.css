@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.tabulka {
+    margin-top: 150px;
+    text-align: center;
+}
+
+table {
+    /* border: 1px solid black; */
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+th {
+    color: rgb(135, 16, 14)
+}
+
+th, td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr td:last-child, tr th:last-child {
+    border-right: none;
+}

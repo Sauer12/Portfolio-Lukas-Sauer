@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(218, 218, 218);
+}
+
+main {
+    /* background-color: rgb(199, 197, 197); */
+    overflow: hidden;
+    margin: 200px 450px;
+    outline: 1px solid black;
+    border-radius: 15px;
+}
+
+.formular {
+    /* outline: 1px solid black; */
+    float: left;
+    margin-left: 100px;
+    width: 550px;
+    padding-left: 50px;
+}
+
+.formular h2 {
+    font-size: 35px;
+}
+
+.formular h5 {
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+
+.formular .inputName {
+    float: left;
+    /* border: 1px solid red; */
+    padding-top: 0px;
+}
+
+.name, .email {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.formular .inputEmail {
+    float: left;
+    /* border: 1px solid green; */
+    margin-left: 30px;
+}
+
+.formular .inputMessage {  
+    clear: both;
+    padding-top: 15px; 
+}
+
+.message {
+    border-radius: 5px;   
+    padding: 10px;
+}
+
+.sendBtn {
+    color: #fff;
+    background-color: rgb(220, 84, 16);
+    padding:8px 35px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sendBtn:hover {
+    cursor: pointer;
+    background-color: rgb(149, 50, 0);
+}
+
+.info {
+    /* outline: 1px solid red; */
+    float: left;
+    width: 300px;
+    margin-top: 142px;
+}
+
+.info p {
+    margin: 2px;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.icon1, .icon2 {
+    float: left;
+    margin-left: 22px;
+}
+
+.globalFooter {
+    background: url("../img/logoClear.png") no-repeat;
+    overflow: hidden;
+    background-position: 10px 32px;
+}
+
+.globalFooter p {
+    float: left;
+    margin-left: 200px;
+    margin-top: 57px;
+}
+
+.footerNav {
+    text-decoration: none;
+    text-align: right;
+    margin-top: 57px;
+    margin-right: 50px;
+}
+
+.footerNav a, .footerNav li {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.footerNav li {
+    color: rgb(220, 84, 16);
+}

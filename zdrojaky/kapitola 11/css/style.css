@@ -1,0 +1,64 @@
+body {
+	width: 600px;
+	padding: 50px;
+}
+
+.important {
+	color: lightcoral;
+}
+
+.controls {
+	text-align: center;
+}
+
+.btn {
+	padding: 6px 12px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	background: #ccc;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px;
+}
+
+.btn-success {
+	color: #FFF;
+	background: #5CB85C;
+	border: 1px solid #4CAE4C;
+}
+
+.btn-danger {
+	color: #FFF;
+	background: #D9534F;
+	border: 1px solid #D43F3A;
+}
+
+h1, h2 {
+	font-family: 'Lucida Grande';
+	margin: 0;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h2 {
+	color: #bada55;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 20px;
+}
+
+p {
+	color: dimgray;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	line-height: 26px;
+}
+
+#main-guy {
+	color: #bada55;
+}
+
+

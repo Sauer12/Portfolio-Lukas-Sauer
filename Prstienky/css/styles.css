@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 50px 0 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: rgb(157, 157, 157);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: 'Charm', cursive; 
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 0px rgb(68, 0, 127);
+}
+
+.ring1, .ring2, .ring3 {
+    float: left;
+    width: 400px;
+    text-align: center;
+}
+
+article img {
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.ring1 {
+    margin: 0 40px 0 10px;
+}
+
+.ring3 {
+    margin: 0 10px 0 40px;
+}
+
+main {
+    margin: 0 300px;
+}
+
+.ring2 img {
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.ring1 h2, .ring2 h2, .ring3 h2 {
+    font-family: 'Chicle', cursive;
+    word-spacing: 3px;
+    margin: 30px 0;
+    font-size: 27px;
+}
+
+article p {
+    margin: 0 auto;
+    width: 350px;
+    font-weight: 400;
+    font-size: 23px;
+    font-family: 'Hi Melody', cursive;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 35px;
+    text-decoration: none;
+    background-color: rgb(157, 157, 157);
+    border-radius: 5px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Chicle', cursive;
+    letter-spacing: 2px;
+}
+
+article a:hover {
+    background-color: rgb(216, 73, 73);
+}

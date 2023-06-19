@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    font-family: 'Anek Kannada', sans-serif;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.formular {
+   width: 495px;
+   /* outline: 2px solid black; */
+   margin: 250px auto;
+   text-align: center;
+   /* border: 1px solid black; */
+   background-color: #fff;
+}
+
+.formular a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 30px 90px 25px;
+    /* border: 1px solid black; */
+    margin: 0;
+    font-weight: 700;
+}
+
+.formular .signIn {
+    background-color: rgb(192, 192, 192);
+}
+
+.signIn:hover {
+    background-color: rgb(134, 132, 132);
+}
+
+.formular .newAccount {
+    background-color: #fff;
+    margin-left: -4px;
+    padding: 30px 70px 25px;
+    border-left: none;
+}
+
+.newAccount:hover {
+    background-color: rgb(251, 251, 251);
+}
+
+.username, .email, .password {
+    background: url(../img/user.svg) no-repeat;
+    background-size: 8%;
+    background-position-y: 3px;
+    background-position-x: 5px;
+    padding: 10px 50px;
+    margin: 35px 0;
+    width: 250px;
+    outline: 1px solid rgb(137, 137, 137);
+    border: none;
+    border-radius: 5px;
+}
+
+.email {
+    background: url(../img/email.svg) no-repeat;
+    background-size: 8%;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    margin: 0 0 30px 0;    
+}
+
+.password {
+    background: url(../img/password.svg) no-repeat;
+    background-size: 8%;
+    background-position-y: 5px;
+    background-position-x: 5px;
+    margin: 0 0 30px 0; 
+}
+
+.termsBox {
+    text-align: left;
+    margin-left: 73px;
+}
+
+.terms {
+    margin: 0 0 30px;
+}
+
+.terms:hover {
+    cursor: pointer;
+}
+
+.termsLabel {
+    margin-left: 0;
+    padding-left: 5px;
+}
+
+.termsLabel:hover {
+    cursor: pointer;
+}
+
+.specialColor {
+    color: rgb(29, 91, 247);
+}
+
+button {
+    margin: 20px 0;
+    padding: 5px 35px;
+    border-radius: 5px;
+    border: none;
+    outline: 2px solid black;
+    background-color: rgb(192, 192, 192);
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(134, 132, 132);
+}
+
+.username:focus, .email:focus, .password:focus {
+    outline: 5px solid rgb(252, 222, 2);
+    border: none;    
+}

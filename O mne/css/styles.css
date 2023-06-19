@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(199, 199, 199);
+}
+
+/* Header */
+.hlavicka {
+    text-align: center;
+}
+
+.hlavicka img {
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.hlavicka .name {
+    margin: 0 auto;
+    width: 400px;
+    background-color: black;
+    color: #FFF;
+    border-radius: 10px;
+    text-shadow: 2px 2px 0px rgb(17, 80, 9);
+}
+
+.hlavicka h1 {
+    padding: 2px;
+    font-family: 'Itim', cursive;
+}
+
+.hlavicka p {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Itim', cursive;
+}
+
+hr {
+    border-color: rgb(0, 0, 0);
+}
+
+/* Sekcia o mne */
+.o_mne {
+    margin: 35px 20%;
+    text-align: center;
+}
+
+.o_mne p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.profile, .work_experience {
+    margin: 80px 33%;
+    text-align: left;
+}
+
+.profile h2, .work_experience h2 {
+    font-family: 'Itim', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.profile h4, .work_experience h4 {
+    margin-bottom: 0px;
+}
+
+.profile p, .work_experience p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.profile a {
+    text-decoration: none;
+}
+
+.profile a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+/* Sekcia work_experience */
+.job2 {
+    margin-top: 38px;
+}
+
+.companyName {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.position {
+    font-size: 19px;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 25px;
+}
+/* Buttons na konci */
+.buttons a{
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.message {
+    background-color: rgb(55, 158, 42);
+    color: #FFF;
+    margin-right: 5px;
+}
+
+.downloadCv {
+    background-color: tomato;
+    color: #FFF;
+}
+
+.buttons a:hover {
+    outline: 3px solid black;
+}

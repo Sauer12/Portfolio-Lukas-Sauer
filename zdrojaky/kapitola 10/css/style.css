@@ -1,0 +1,29 @@
+body {
+	width: 600px;
+	padding: 50px;
+}
+
+h1, h2 {
+	font-family: 'Lucida Grande';
+	margin: 0;
+}
+
+h1 {
+	color: lightcoral;
+	font-size: 42px;
+}
+
+h2 {
+	color: #bada55;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 20px;
+}
+
+p {
+	color: dimgray;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	line-height: 26px;
+}

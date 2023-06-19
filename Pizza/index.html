@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="icon" type="image/png" href="img/pizza.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="others/grid.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="nav-background">
+
+        </div>        
+        <div class="nav-bar row">
+            <div id="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul>                
+                    <li><a href="#" class="jq--scroll-our-pizza">Naša pizza</a></li>
+                    <li><a href="#" class="jq--scroll-about-pizza">O našej pizzi</a></li>
+                    <li><a href="#" class="jq--scroll-references">Reference</a></li>
+                    <li><a href="#" class="jq--scroll-photogallery">Fotogaléria</a></li>
+                    <li><a href="#" class="jq--scroll-contact-form">Kontakt</a></li>
+                </ul>   
+                
+                <div class="mobile-nav-back"></div>
+                <a class="mobile-nav-icon jq--nav-icon"><img class="jq--image-hamburger"src="img/hamburgerMenu.png" alt=""></a>
+            </nav> 
+            <!-- <div class="clearfix"></div> -->
+        </div>
+        <div class="header-text">
+            <h1>Roztančíme vaše chuťové bunky</h1>            
+            <a href="#" class="btn btn-full jq--scroll-btn-first">Prvé tlačítko</a>
+            <a href="#" class="btn btn-empty jq--scroll-btn-second">Druhé tlačítko</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-us row jq--our-pizza">
+            <div class="empty-space"></div>
+            <div class="heading-main">
+                <h2>Naša pizza</h2>
+            </div>
+            <div class="pizza-example">
+                <div class="col span-1-of-2">
+                    <img src="img/pizza1.jpg" alt="">
+                </div>
+                <div class="col span-1-of-2">
+                    <img src="img/pizza2.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="our-pizza row jq--about-pizza">
+            <div class="empty-space"></div>
+            <div class="heading-main">
+                <h2>O našej pizzi</h2>
+            </div>
+            <div class="pizza-info">
+                <div class="col span-1-of-2">
+                    <img src="img/pizza3.jpg" alt="">
+                </div>
+                <div class="col span-1-of-2">
+                    <div class="text-pizza clearfix">
+                        <div>1</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, inventore.</p>
+                    </div>
+                    <div class="text-pizza clearfix">
+                        <div>2</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, inventore.</p>
+                    </div>
+                    <div class="text-pizza clearfix">
+                        <div>3</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, inventore.</p>
+                    </div>
+                    <div class="text-pizza clearfix">
+                        <div>4</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, inventore.</p>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="reference jq--references">
+            <div class="empty-space"></div>
+            <div class="heading-main">
+                <h2>Čo o nás povedali zákazníci</h2>
+            </div>
+
+            <div class="custorme-reference row">
+                <div class="col span-1-of-3 one-reference">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, recusandae ut ad esse a laboriosam. Corporis asperiores unde magnam qui ab fuga architecto?</p>
+                    <div class="photo-name">
+                        <img src="img/ja.jpg" alt="" class="clearfix">
+                        <p>Lukáš Sauer</p>
+                    </div>
+                </div>
+                <div class="col span-1-of-3 one-reference">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, recusandae ut ad esse a laboriosam. Corporis asperiores unde magnam qui ab fuga architecto?</p>
+                    <div class="photo-name">
+                        <img src="img/ja.jpg" alt="" class="clearfix">
+                        <p>Lukáš Sauer</p>
+                    </div>
+                </div>
+                <div class="col span-1-of-3 one-reference">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, recusandae ut ad esse a laboriosam. Corporis asperiores unde magnam qui ab fuga architecto?</p>
+                    <div class="photo-name">
+                        <img src="img/ja.jpg" alt="" class="clearfix">
+                        <p>Lukáš Sauer</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="photo-gallery jq--photogallery">
+            <div class="empty-space"></div>   
+            <div class="heading-main">
+                <h2>Čo u nás môžete ochutnáť</h2>
+            </div>
+            <div class="photo row">
+                <ul class="photo-segment">
+                    <li class="col span-1-of-2"><a href="img/pizza1.jpg" data-lightbox="mygallery" data-title="Pizza"><img src="img/pizza1.jpg" alt=""></a></li>
+                    <li class="col span-1-of-2"><a href="img/pizza2.jpg" data-lightbox="mygallery" data-title="Pizza"><img src="img/pizza2.jpg" alt=""></a></li>
+                </ul>
+                <ul class="photo-segment">
+                    <li class="col span-1-of-2"><a href="img/pizza3.jpg" data-lightbox="mygallery" data-title="Pizza"><img src="img/pizza3.jpg" alt=""></a></li>
+                    <li class="col span-1-of-2"><a href="img/pizza4.jpg" data-lightbox="mygallery" data-title="Pizza"><img src="img/pizza4.jpg" alt=""></a></li>
+                </ul>                
+                <ul class="photo-segment">
+                    <li class="col span-1-of-2"><a href="img/pizza5.jpg" data-lightbox="mygallery" data-title="Pizza"><img src="img/pizza5.jpg" alt=""></a></li>
+                    <li class="col span-1-of-2"><a href="img/pizza6.jpg" data-lightbox="mygallery" data-title="Pizza"><img src="img/pizza6.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="jq--contact-form">
+            <div class="empty-space"></div>
+            <div class="heading-main">
+                <h2>Spýtajte sa nás na čokoľvek</h2>
+            </div>
+
+            <form action="" class="contact-form row">
+                <input type="text" placeholder="Meno"><br>
+                <input type="text" placeholder="Priezvisko"><br>
+                <input type="mail" placeholder="Email"><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Správa"></textarea><br>
+                <input type="submit" value="Odoslať">
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-page">
+        <div class="row">
+            <div class="social">
+                <p><a href="https://www.facebook.com" target="_blank">Facebook</a></p>
+                <p><a href="https://www.instagram.com" target="_blank">Instagram</a></p>
+            </div>
+
+            <div class="footer-text">
+                Copywrite &copy; 2021 Pizza Sauer. Všetky práva vyhradené.
+            </div>
+        </div>
+
+    </footer>
+
+    </html>
+</body>

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/foodBackground.png);
+    background-repeat: no-repeat;
+    background-position: center 280px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+header h1 img {
+    position: relative;
+    top: -140px;
+    z-index: 1;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(235, 9, 9);
+    position: relative;
+    z-index: 2;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.menu li, .menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.menu li {
+    padding: 24px 20px;
+    margin-left: 10px;
+}
+
+.menu a {
+    font-weight: 700;
+}
+
+.menu a:hover {
+    text-decoration: underline 2px;
+}
+
+article {
+    text-align: center;
+}
+
+article h2 {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(235, 9, 9);
+    font-size: 25px;
+    word-spacing: 3px;
+}
+
+article p {
+    width: 650px;
+    margin: 30px auto;
+    font-size: 17px;
+    line-height: 32px;
+    color: rgb(98, 98, 98);
+}
+
+article a {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 13px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(235, 9, 9);
+    border-radius: 8px;
+}
+
+article a:hover {
+    background-color: rgb(241, 64, 64);
+    outline: 1px solid black;
+}
+
+.pre-footer {
+    margin-top: 30px;
+    background-color: rgb(235, 9, 9);
+    height: 100px;
+    background-repeat: no-repeat;
+    text-align: center;   
+}
+
+.pre-footer img {
+    margin-top: 35px;
+}
+
+.globalFooter {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    padding: 0 25px 12px;
+    background-color: rgb(235, 9, 9);
+}
+
+::selection { background: rgb(158, 158, 158);}
+

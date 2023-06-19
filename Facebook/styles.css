@@ -1,0 +1,76 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+header {
+	background: #385898
+}
+
+header h1 {
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+}
+
+#logo img {
+	display: block;
+	width: 30%;
+	margin: 0px auto;
+}
+
+main h2 {
+	text-align: center;
+	color: #385898;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+main p {
+	background: #385898;
+	color: white;
+	font-size: 20px;
+	padding: 10px 15px;
+}
+
+form {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* Formular */
+form input {
+	margin: 5px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	height: 25px;
+	width: 200px;
+	text-align: center;
+}
+
+input[type=submit] {
+	background: #385898;
+	color: white;
+	font-size: 15px;
+}
+
+input[type=submit]:hover {
+	background: #FFF132;
+	color: black;
+	font-weight: bold;
+}
+
+/* Footer */
+footer p{
+	background: #385898;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 0px;
+	padding-left: 15px;
+}

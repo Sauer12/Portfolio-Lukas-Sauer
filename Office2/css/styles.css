@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bodyHeader {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    height: 850px;
+    background-position-y: -120px;
+}
+
+nav {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    height: 115px;
+    background-position-x: 200px;
+    background-position-y: 7px;
+    background-color: rgba(193, 193, 193, 0.7);
+}
+
+.navigation {
+    text-align: right;
+    padding: 45px 350px 45px 0;
+}
+
+.navigation li{
+    display: inline-block;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #000;
+    font-weight: 700;
+}
+
+.navigation .second {
+    color: rgb(244, 146, 0);
+}
+
+.navigation a:hover {
+    text-decoration: underline 2px;
+}
+
+.navigation .special {
+    padding: 10px 15px;
+    outline: 2px solid black;
+    border-radius: 5px;
+}
+
+.navigation .special:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.textHeader {
+    text-align: center;
+    color: #000;
+}
+
+.spe {
+    color: rgb(244, 146, 0);
+}
+
+.textHeader h1 {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.textHeader p {
+    font-size: 20px;
+}
+
+.firstArticle {
+    text-align: center;
+    width: 800px;
+    margin: 50px auto 170px;
+}
+
+.firstArticle h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.firstArticle p {
+    line-height: 30px;
+}
+
+.firstSection h3 {
+    margin-bottom: 15px;
+}
+
+.firstSection p {
+    line-height: 25px;
+}
+
+.aside1 {
+    width: 500px;
+    margin: 0 0 0 400px;
+    float: left;
+}
+
+.aside1 h3, .aside1 p {
+    margin-left: 80px;
+}
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+    float: left;
+    color: rgb(244, 146, 0);
+}
+
+.aside2 {
+    width: 500px;
+    margin: 0 400px 0 0;
+    float: right;
+}
+
+.aside2 h3, .aside2 p {
+    margin-left: 80px;
+}
+
+.aside3 {
+    clear: both;
+    width: 500px;
+    margin: 80px 0 0 400px;
+    float: left;
+}
+
+.aside3 h3, .aside3 p {
+    margin-left: 80px;
+}
+
+.aside4 { 
+    width: 500px;
+    margin: 80px 400px 0 0;
+    float: right;
+}
+
+.aside4 h3, .aside4 p {
+    margin-left: 80px;
+}
+
+.aside5 {
+    clear: both;
+    width: 500px;
+    margin: 80px 0 0 400px;
+    float: left;
+}
+
+.aside5 h3, .aside5 p {
+    margin-left: 80px;
+}
+
+.aside6 {
+    width: 500px;
+    margin: 80px 400px 0 0;
+    float: right;
+}
+
+.aside6 h3, .aside6 p {
+    margin-left: 80px;
+}
+
+.firstSection .button {
+    text-align: center;
+}
+
+.firstSection a {
+    clear: both;
+    display: inline-block;
+    margin: 150px 0 30px 0;
+    padding: 12px 50px;
+    background-color: rgb(244, 146, 0);
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.firstSection a:hover {
+    outline: 2px solid black;
+    background-color: rgb(244, 106, 0);
+}
+
+.globalFooter {
+    text-align: right;
+    margin: 0 15px 10px 0;
+}
+

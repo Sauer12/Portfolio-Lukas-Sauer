@@ -1,0 +1,65 @@
+body {
+    width: 600px;
+    background: rgb(221, 176, 247);
+    padding: 50px;
+}
+
+h1, h2 {
+    font-family: 'Lucida Grande';
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+}
+
+p {
+    color: rgb(63, 63, 63);
+    font-size: 17px;
+    font-family: 'Open Sans';
+    line-height: 20px;
+}
+
+strong {
+    color: firebrick;
+}
+
+#main {
+    color: forestgreen;
+    font-size: 18px;
+}
+
+.important { 
+    color: darkred;
+}
+
+.controls {
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 15px;
+    font-size: 20px;
+    background: rgb(177, 240, 226);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success {
+    color: rgb(255, 255, 255);
+    background: #2b832b;
+}
+
+.btn-danger {
+    background: rgb(185, 28, 28);
+}

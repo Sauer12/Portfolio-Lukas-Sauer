@@ -1,0 +1,75 @@
+html, body{
+    margin: 0;
+    font-family: 'Rowdies', cursive;
+}
+
+
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(212, 21, 21);
+    font-size: 40px;
+    margin: 0;
+    margin-top: 75px;
+}
+
+header p{
+    font-size: 20px;
+    margin: 0px 15%;
+    color: rgba(104, 104, 104, 0.8);
+}
+
+.h1Text{
+    margin: 0px;
+    margin-bottom: 50px;
+    color: rgba(104, 104, 104, 0.8);
+    font-size: 16px;
+}
+
+hr {
+    margin: 50px 13%;
+}
+
+main{
+    /* text-align: center;  */
+    margin: 0px 20%;
+}
+
+section h2 {
+    color: rgb(212, 21, 21);
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+section .graphics{
+    margin-top: 40px;
+}
+
+section .education {
+    margin-top: 50px;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btn1, .btn2 {
+    background-color: rgb(163, 163, 163);
+    color: rgb(212, 21, 21);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 5px;
+    margin: 15px 15px 15px 0px;
+    outline: 1px solid black;
+}
+
+.btn1:hover, .btn2:hover{
+    text-decoration: underline;
+    outline: 3px solid black;
+}
+

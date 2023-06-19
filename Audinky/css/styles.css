@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #5c0885, #7e51a9, #a38bc9, #cec5e6, #ffffff);;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-family: 'Ruluko', sans-serif;
+}
+
+.hr {
+    border: 1px solid rgb(99, 99, 99);
+}
+
+#logo {
+    width: 22%;
+    height: 27%;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: 'Kumar One', cursive;
+}
+
+header {
+    text-align: center;
+}
+
+.engineL {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.engineR {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+
+.starsL {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+.starsR {
+    position: absolute;
+    top: 0px;
+    right: 400px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu li, .menu a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu li {
+    margin-left: 5px;
+}
+
+.menu a {
+    padding: 15px 12px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    outline: 2px solid rgb(239, 215, 0);
+    border-radius: 15px;
+}
+
+.menu a:hover {
+    background-color: #7e51a9;
+    border-radius: 15px;
+}
+
+article:first-of-type {
+    overflow: hidden;
+    margin: 25px 0;
+    padding: 10px 0;
+}
+
+.aboutAudi {
+    margin-top: 2px;
+    padding: 20px;
+    width: 500px;
+    float: left;
+    margin-left: 250px;
+    background-color: snow;
+    border-radius: 10px;
+    outline: 2px solid black;
+}
+
+.aboutAudi h2 {
+    font-family: 'Kumar One', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.aboutAudi p {
+    font-size: 18px;
+    line-height: 22px;
+    word-spacing: 3px;
+    padding-right: 25px;
+}
+
+.audiCompany {
+    float: left;
+    margin: 0px 0px 0px 40px;
+
+}
+
+.interestingFacts {
+    width: 300px;
+    float: right;
+    margin-right: 300px;
+    background-color: snow;
+    border-radius: 10px;
+    outline: 2px solid black;
+}
+
+.interestingFacts h3 {
+    margin-top: 15px;
+    font-family: 'Kumar One', cursive;
+    font-size: 19px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.interestingFacts p {
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.miniLogo {
+    position: absolute;
+    top: 360px;
+    left: 480px;
+}
+
+.starsUpL {
+    position: absolute;
+    left: 0;
+    top: 450px;
+}
+
+.starsUpR {
+    position: absolute;
+    right: 0;
+    top: 450px;
+}
+
+.audiA4 {
+    clear: both;
+    background-color: snow;
+    overflow: hidden;
+    width: 1250px;
+    margin: 20px auto;
+    padding: 15px 8px;
+    border-radius: 10px;
+    outline: 2px solid black;
+}
+
+.audiA4 img {
+    float: left;
+    /* margin-left:; */
+}
+
+.audiA4 h2, .audiA5 h2 {
+    font-family: 'Kumar One', cursive;
+}
+
+.audiA4 div {
+    width: 600px;
+    float: left;
+    padding-left: 60px;
+}
+
+.audiA4 h2, .audiA5 h2 {
+    margin: 15px 0px 20px 0;
+}
+
+.audiA5 {
+    background-color: snow;
+    width: 1250px;
+    height: 313px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 15px 8px;
+    border-radius: 10px;
+    outline: 2px solid black;
+}
+
+.audiA5 img {
+    float: right;
+    margin-top: 25px;
+}
+
+.audiA5 div {
+    float: right;
+    width: 600px;
+    padding-right: 60px;
+}
+
+.globalFooter {
+    color: rgb(86, 86, 86);
+    font-size: 16px;
+    text-align: right;
+    padding: 3px 25px;
+    font-family: 'Kumar One', cursive;
+}
+
+

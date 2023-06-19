@@ -1,0 +1,16 @@
+*, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background: url("../img/YahariOre/background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: url("../img/YahariOre/background.jpg");
+    height: 100vh;
+}

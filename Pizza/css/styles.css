@@ -1,0 +1,318 @@
+* {
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** reusable *****/
+.row {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.heading-main h2 {
+    text-align: center;
+    /* margin-top: 20px; */
+    font-size: 30px;
+}
+
+.heading-main h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid #d26200;
+    margin: 20px auto;
+}
+
+.empty-space {
+    height: 55px;
+}
+
+/***** header *****/
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../img/pizza-background.jpg");    
+    background-size: cover;
+    height: 100vh; 
+    background-attachment: fixed;
+}
+
+.nav-background {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 50;
+    border-bottom: 2px solid #fff;
+}
+
+#logo img{
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav ul {
+    float: right;
+    margin-top: 7px;
+    position: fixed;
+    margin-left: 28%;
+    z-index: 100;
+}
+
+nav ul li {
+    display: inline-block;  
+    margin-left: 10px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    transition: border-bottom 0.5s;
+    border-bottom: 2px solid #d26200;
+}
+
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    word-spacing: 3.5px;
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #d26200;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background: #d26200;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    transition: background 0.5s;
+    background: #bd4602;
+    border: 1px solid #bd4602;
+}
+
+.btn-empty:link,
+.btn-empty:visited {
+    margin-left: 5px;
+    background: transparent;
+}
+
+.btn-empty:hover, 
+.btn-empty:active {
+    transition: background 0.5s;
+    background: #bd4602;
+    border: 1px solid #bd4602;
+}
+
+/* Mobile navigation */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 5px;
+    display: none;
+}
+
+/***** About us *****/
+.pizza-example img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #000;
+}
+
+/***** Our pizza *****/
+.pizza-info img{
+    width: 100%;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #000;
+}
+
+.text-pizza {
+    margin-bottom: 20px;
+}
+
+.text-pizza div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    padding: 12px;
+    float: left;
+}
+
+.text-pizza p {
+    margin-left: 60px;
+    font-size: 18px;
+}
+
+/***** Reference *****/
+.reference {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url("../img/pizza-background.jpg");
+    background-attachment: fixed;    
+}
+
+.reference h2 {
+    color: #fff;
+    padding-top: 15px;
+}
+
+.reference h2:after {
+    border-bottom: 2px solid #fff;
+}
+
+.one-reference {
+    color: #fff;
+    font-size: 18px;
+}
+
+.one-reference p {
+}
+
+.photo-name {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.photo-name p {
+    padding: 14px;
+    margin-left: 45px;
+    font-style: italic
+}
+
+.photo-name img {
+    width: 50px;
+    height: 54px;
+    border-radius: 50%;
+    float: left;
+}
+
+/***** Photo gallery *****/
+.photo-segment li {
+    list-style-type: none;
+    /* background-color: #000; */
+    overflow: hidden;
+    height: 350px;
+}
+
+.photo-segment img {
+    width: 100%;
+    height: 350px;
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+/* .photo-segment img:hover {
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1);
+    opacity: 1;
+} */
+
+/***** Contact form *****/
+.contact-form {
+    max-width: 700px;
+    text-align: center;
+}
+
+.contact-form input {
+    width: 80%;
+    margin: 5px 0;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.contact-form textarea {
+    width: 80%;
+    border: 2px solid #000;
+    margin: 5px 0;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: arial;
+}
+
+input[type="submit"] {
+    background-color: #d26200;
+    color: #fff;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    transition: background-color 0.5s;
+    background-color: #bd4602;
+}
+
+/***** Footer *****/
+.footer-page {
+    background: #d26200;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.social {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social p {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social p a:link,
+.social p a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.social p a:hover,
+social p a:active {
+    color: #000;
+}
+
+.footer-text {
+    text-align: center;   
+    margin: 10px 0;
+}
+
+/***** Stop floating *****/
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}

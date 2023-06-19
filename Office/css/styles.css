@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.main-header {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -350px;
+    height: 600px;
+    text-align: center;
+}
+
+.main-header #logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.main-header .menuIcon {  
+    position: absolute;
+    right: 35px;
+    top: 35px;
+}
+
+.main-header h1 {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 75px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.main-header a {
+    display: inline-block;
+    margin-top: 125px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    outline: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 30px;
+}
+
+.main-header a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-header p:first-of-type {
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 42px;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+}
+
+.main-header .menuText {
+    text-align: right;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+    margin-right: 38px;
+    padding-top: 15px;
+}
+
+article {
+    /* height: 500px; */
+}
+
+.article-first i {
+    color: rgb(45, 45, 45);
+    margin: 60px 15px;
+}
+
+.article-first {
+    text-align: center;
+}
+
+.article-first p {
+    width: 650px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.article-second {
+    text-align: center;
+}
+
+.article-second h2 {
+    display: inline-block;
+    margin: 60px 0;
+    font-size: 50px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
+
+.article-second hr {
+    display: inline-block;
+}
+
+.article-second .first {
+    float: left;
+    width: 350px;
+    margin-left: 550px;
+}
+
+.article-second .second {
+    float: right;
+    margin-right: 550px;
+    width: 350px;
+}
+
+.article-second .third {
+    clear: both;
+    float: left;
+    width: 350px;
+    margin-left: 550px;
+}
+
+.article-second .fourth {
+    float: right;
+    width: 350px;
+    margin-right: 550px;
+}
+
+.article-second h3 {
+    font-size: 26px;
+}
+
+.article-second p {
+    margin: 15px 0 60px 0;
+    font-size: 17px;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+    margin: 0;
+    color: rgb(45, 45, 45);
+}
+
+.globalFooter {
+    clear: both;
+    font-size: 18px;
+    text-align: right;
+    margin: 0 10px 5px 0;
+}
+

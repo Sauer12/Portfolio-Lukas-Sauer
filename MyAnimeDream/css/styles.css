@@ -1,0 +1,54 @@
+*, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../img/menu.jpg");
+    height: 100vh;
+    
+}
+
+/* Title */
+.title h1 {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 115px;
+    word-spacing: 5px;
+    color: rgba(24, 24, 24, 0.8);
+    text-shadow: 5px 3px 4px rgba(236, 114, 199, 0.9);
+    border: 4px solid #000; 
+    border-radius: 50px;
+}
+
+
+/* Navigation */
+.navigation {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 110px;
+    /* padding-top: 10px; */
+    text-align: left;
+}
+
+.navigation li {
+    display: inline-block;
+    height: 102px;
+    text-decoration: none;
+    margin: 5px 10px;
+    /* border: 1px solid #fff;  */
+}
+
+.sg img {
+    /* margin-top: 10px; */
+}
+
+
+
+
+

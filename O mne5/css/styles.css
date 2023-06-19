@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(51, 1, 75);
+    color: rgb(243, 243, 243);
+}
+
+header {
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    margin-top: 65px;
+    font-family: 'Gaegu', cursive;
+}
+
+header p{
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+header img {
+    border-radius: 50%;
+    outline: 1px solid rgb(204, 204, 204);
+}
+
+main {
+    margin: 0px 20%;
+}
+
+section {
+    margin-top: 50px;
+}
+
+section h2 {
+    margin: 0;
+    font-family: 'Gaegu', cursive;
+    text-shadow: 2px 2px 0px #000;
+}
+
+section p {
+    margin: 15px 0;
+}
+
+.btn a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(243, 243, 243);
+    width: 150px;
+    padding: 15px 20px;
+    background-color: rgb(40, 97, 13);
+    border-radius: 15px;
+    
+}
+
+.btn a:hover {
+    background-color: brown;
+    outline: 2px solid black;
+    cursor: pointer;
+}

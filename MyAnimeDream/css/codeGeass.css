@@ -1,0 +1,290 @@
+*, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background: url("../img/CodeGeass/background.jpg");
+    height: 100vh;
+    /* background-attachment: fixed; */
+}
+
+body {
+    background: rgba(0, 0, 0);
+}
+
+/******   HEADER   ******/
+/* Title */
+.title h1 {
+    color: rgb(235, 235, 235);
+    position: absolute;
+    left: 45%;
+    top: 17%;
+    font-size: 100px;
+    letter-spacing: 1.5px;
+    word-spacing: 10px;
+    padding: 10px 50px;
+    text-shadow: 3px 3px 5px rgb(231, 141, 24);
+    border: 4px solid rgb(235, 235, 235);
+    border-radius: 50px;
+    box-shadow: 4px 4px 5px rgb(235, 235, 235);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Navigation */
+.navigation {
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 110px;
+    /* padding-top: 10px; */
+    text-align: left;
+}
+
+.navigation li {
+    display: inline-block;
+    height: 102px;
+    text-decoration: none;
+    margin: 5px 10px;
+    /* border: 1px solid #fff;   */
+}
+
+.navigation li:hover {
+    border-bottom: 4px solid rgb(121, 12, 211);
+}
+
+.siteNav {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+.siteNav li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.siteNav li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 13px;
+    font-family: 'Style Script', cursive;
+    letter-spacing: 2px;
+}
+
+.siteNav li:hover {
+    border-bottom: 4px solid rgb(121, 12, 211); 
+}
+
+/******   MAIN   ******/
+
+/* Section characters */
+.lelouch, .cc, .kallen, .suzaku {
+    margin: 0% 20%;
+    padding-top: 25px;
+    background: #fff;
+    height: 435px;
+    border-radius: 15px;
+}
+
+.lelouch h2, .kallen h2, .cc h2, .suzaku h2 {
+    color: black;
+    font-family: 'Style Script', cursive;
+    letter-spacing: 3px;
+    font-size: 35px;
+    text-shadow: 1px 1px 5px rgb(148, 148, 148);
+}
+
+/* Lelouch x Kallen */
+
+.lelouchImg, .kallenImg {
+    padding-right: 45px;
+    padding-left: 40px;
+    padding-top: 12px;
+    float: left;
+}
+
+.lelouchImg img, .kallenImg img {
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.lelouchText, .kallenText {
+    color: #000;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+.lelouch p, .kallen p {
+    padding-top: 45px;
+    padding-right: 100px;
+}
+
+.lelouchText .quote, .kallenText .quote {
+    font-style: italic;
+    font-size: 18px;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.lelouchText .normal, .kallenText .normal {
+    padding-left: 15px;
+    font-style: normal;
+}
+
+/* C.C. x Suzaku */
+.cc, .suzaku {
+    margin-top: 20px;
+}
+
+.ccImg, .suzakuImg {
+    padding-right: 40px;
+    padding-left: 45px;
+    padding-top: 12px;
+    float: right;
+}
+
+.ccImg img, .suzakuImg img {
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.ccText, .suzakuText {
+    color: #000;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    text-align: right;  
+}
+
+.ccText p, .suzakuText p {
+    padding-top: 45px;
+    padding-left: 100px;
+}
+
+.ccText .quote, .suzakuText .quote {
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.ccText .normal, .suzakuText .normal {
+    padding-left: 15px;
+    font-style: normal;
+}
+
+.ccP, .suzakuP {
+    text-align: left;
+}
+
+/* Kallen */
+.kallen {
+    margin-top: 20px;
+}
+
+/* Suzaku */
+.suzaku {
+    margin-bottom: 20px;
+}
+
+/***** Section SlideShow *****/
+.slider {
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+    margin: 40px 0px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    /* box-shadow: 0px 2px 5px rgb(121, 12, 211); */
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: 1s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.middle {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navigationSlideShow {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 13px;
+    display: flex;
+}
+
+.bar {
+    width: 55px;
+    height: 17px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.bar:hover {
+    background: #fff;
+    border: 3px solid #000;
+}
+
+input[name="r"]{
+    display: none;
+}
+
+#r1:checked ~ .s1 {
+    margin-left: 0px;
+}
+
+#r2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#r4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#r5:checked ~ .s1 {
+    margin-left: -80%;
+}
+
+/******   FOOTER   ******/
+.footer-page {
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    text-align: center;
+}
+
+.footer-page p {
+    margin-bottom: 5px;
+}
+
+.footer-page a {
+    color: #fff;
+}
+
+
+

@@ -1,0 +1,223 @@
+body {
+    margin: 0;   
+    background-color: rgb(248, 248, 248);
+}
+
+.main-header {
+    background: url(../img/background.png) 50% -50px;
+    background-repeat: space;
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+}
+
+.main-header h1 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+}
+
+.menu {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.menu li {
+    border: 1px solid black;
+    background-color: rgb(148 208 231);
+}
+
+.menu li, .menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Sriracha', cursive;
+    font-size: 18px;
+    color: black;
+    border-radius: 8%;
+    margin: 0 3px;
+}
+
+.menu li:hover {
+    background-color: rgb(207, 128, 128);
+}
+
+.logo {
+    position: relative;
+    top: -10px;
+    text-align: center;
+}
+
+hr {
+    border-bottom: 0px;
+    border-color: black;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Sriracha', cursive;
+    margin: 0px;
+    font-size: 40px;
+}
+
+.post-meta {
+    margin: 0px;
+    font-family: 'Sriracha', cursive;
+    margin-top: -10px;
+}
+
+.post-meta a {
+    text-decoration: none;
+    color: rgb(148 208 231);
+}
+
+.post-meta time:before {
+    content: ' • ';
+    font-style: normal;
+}
+
+.first {
+    margin: 20px 13%;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.second, .third, .fourth, .fifth {
+    margin: 40px 25%;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.post-content h2 {
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    margin-bottom: 0;
+}
+
+.post-content {
+    margin: 0;
+}
+
+.Cclass {
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+}
+
+.Cclass img{
+    display: inline-block;
+}
+
+.Cclass .background1 {
+    padding: 90px 0;
+    padding-right: 150px;
+
+}
+
+.Cclass .C {
+    margin-top: 4px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.Cclass .background2 {
+    padding: 90px 0;
+    padding-left: 150px;
+}
+
+.mainArticleFooter {
+    background-color: rgb(207, 207, 207);
+}
+
+.articleFooter {
+    width: 951px;
+    margin: 50px auto;
+    padding: 1px;
+}
+
+.articleFooter h3 {
+    font-size: 18px;
+    font-family: 'Sriracha', cursive;
+}
+
+.articleFooter .aboutMe {
+    text-align: center;
+    font-size: 22px;
+}
+
+.photo {
+    float: left;
+    border-radius: 50%;
+    border: 7px solid rgb(148 208 231);
+}
+
+.byline p, .byline h3 {
+    margin-left: 240px;
+}
+
+.preFooter {
+    width: 1400px;
+    border-top: 1px solid black;
+    margin: 10px auto;
+    border-bottom: 1px solid black;
+}
+
+.reviews {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.reviews li {
+    float: left;
+    width: 300px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.reviews li:first-child {
+    margin-left: 90px;
+}
+
+.reviews li:before {
+    content: '"';
+    color: rgb(148 208 231);
+    font-size: 40px;
+    font-style: italic;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.reviews blockquote {
+    font-style: italic;
+}
+
+.review-byline {
+    font-weight: bold;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+
+.globalFooter {
+    color: rgb(101, 170, 197);
+    font-size: 16px;
+    text-align: right;
+    padding: 3px 25px;
+    font-family: 'Sriracha', cursive;
+}
+
+::selection { background: rgb(144, 211, 237);}

@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SlovakiaHospitalBeds</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .chartMenu {
+      width: 100vw;
+      height: 40px;
+      background: #1A1A1A;
+      color: rgba(255, 26, 104, 1);
+    }
+
+    .chartMenu p {
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    .chartCard {
+      width: 100vw;
+      height: calc(100vh - 40px);
+      background: rgba(255, 26, 104, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .chartBox {
+      width: 1500px;
+      padding: 20px;
+      border-radius: 20px;
+      border: solid 3px rgba(255, 26, 104, 1);
+      background: white;
+    }
+  </style>
+</head>
+<body>
+<div class="chartMenu">
+  <p>Slovakia hospital Beds</p>
+</div>
+<div class="chartCard">
+  <div class="chartBox">
+    <canvas id="myChart"></canvas>
+    <!--        <button onclick="updateChart()">Update chart</button>-->
+  </div>
+</div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  updateChart();
+
+  function updateChart() {
+    //Fetch Block
+    async function fetchData() {
+      const url = 'http://localhost:8080/api/slovakiaHospitalBeds';
+      const response = await fetch(url);
+
+      // wait until the request has been completed
+      const datapoints = await response.json();
+      console.log(datapoints);
+      return datapoints; //store data
+    };
+
+    //loop - vypise len -> newest_reported_at:
+    fetchData().then(datapoints => {
+      const date = datapoints.map(
+              function (index) {
+                return index.published_on;
+              })
+      const free = datapoints.map(
+              function (index) {
+                return index.free_all;
+              })
+      const capacity = datapoints.map(
+              function (index) {
+                return index.capacity_all;
+              })
+      const capacity_covid = datapoints.map(
+              function (index) {
+                return index.capacity_covid;
+              })
+      const occupied_jis_covid = datapoints.map(
+              function (index) {
+                return index.occupied_jis_covid;
+              })
+      const occupied_oaim_covid = datapoints.map(
+              function (index) {
+                return index.occupied_oaim_covid;
+              })
+      const occupied_o2_covid = datapoints.map(
+              function (index) {
+                return index.occupied_o2_covid;
+              })
+
+      console.log(date);
+      console.log(free);
+      console.log(capacity);
+      //for labels:
+      // myChart.config.data.datasets[0].label = freeBeds;
+      myChart.config.data.labels = date;
+      myChart.config.data.datasets[0].data = capacity;
+      myChart.config.data.datasets[1].data = free;
+      myChart.config.data.datasets[2].data = capacity_covid;
+      myChart.config.data.datasets[3].data = occupied_jis_covid;
+      myChart.config.data.datasets[4].data = occupied_oaim_covid;
+      myChart.config.data.datasets[5].data = occupied_o2_covid;
+
+
+
+      myChart.update();
+    });
+  }
+
+  // setup
+  const data = {
+    labels: [],
+    datasets: [{
+      label: 'Capacity of hospital beds in Slovakia',
+      data: [],
+      // fill: false,
+      backgroundColor: [
+        'rgba(57,255,26,0.2)'
+      ],
+      borderColor: [
+        'rgba(43,201,23,0.66)'
+      ],
+      borderWidth: 1
+    },
+      {
+        label: 'Number of all available hospital beds in Slovakia',
+        data: [],
+        // fill: false,
+        backgroundColor: [
+          'rgba(255, 26, 104, 0.2)'
+        ],
+        borderColor: [
+          'rgba(255, 26, 104, 1)'
+        ],
+        borderWidth: 1
+      },
+      {
+        label: 'Maximum number of reprofiled beds for COVID patients',
+        data: [],
+        // fill: false,
+        backgroundColor: [
+          'rgba(255,175,26,0.2)'
+        ],
+        borderColor: [
+          'rgb(210,121,16)'
+        ],
+        borderWidth: 1
+      },
+      {
+        label: 'Beds in the intensive care unit (ICU) currently used by patients who have COVID',
+        data: [],
+        // fill: false,
+        backgroundColor: [
+          'rgba(211,5,74,0.2)'
+        ],
+        borderColor: [
+          'rgb(208,5,31)'
+        ],
+        borderWidth: 1
+      },
+      {
+        label: 'Beds in the Department of Anesthesiology and Intensive Care Medicine (OAIM) currently occupied by ventilated patients who have COVID',
+        data: [],
+        // fill: false,
+        backgroundColor: [
+          'rgba(152,26,255,0.2)'
+        ],
+        borderColor: [
+          'rgb(101,19,204)'
+        ],
+        borderWidth: 1
+      },
+      {
+        label: 'Beds with oxygen (O2) currently used by patients who have COVID',
+        data: [],
+        // fill: false,
+        backgroundColor: [
+          'rgba(13,175,168,0.2)'
+        ],
+        borderColor: [
+          'rgb(13,203,203)'
+        ],
+        borderWidth: 1
+      }]
+  };
+
+  // config
+  const config = {
+    type: 'line',  //stlpcekovy -> type: 'bar',
+    data,
+    options: {
+      // elements:{
+      //   line:{
+      //     tension:0
+      //   }
+      // },
+      scales: {
+        y: {
+          // beginAtZero: true
+          begin: '100' //este zistit ako to presne funguje
+        }
+      }
+    }
+  };
+
+  // render init block
+  const myChart = new Chart(
+          document.getElementById('myChart'),
+          config
+  );
+</script>
+
+</body>
+</html>

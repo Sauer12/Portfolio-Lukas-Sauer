@@ -1,0 +1,20 @@
+PEXESO - Konzolova hra
+
+Chcem vytvorit hru, konzolove pexeso. Tato hra bude obsahovat karticky s pismenami, pripadne s cislami a cielom hraca je odhalit vsetky pary.
+Hra sa bude moct hrat bud ako solo game alebo ako hra pre dvoch hracov, neskor pridam bota pre solo hru.
+
+Program by mal obsahovat tieto triedy
+
+0. Gameaffas
+
+
+1. PlayingArea
+    Card[] cards;
+    width;
+    height:
+
+2. Card
+    - boolean isGuessed
+    - String type
+    - int positionX;
+    - int positionY;

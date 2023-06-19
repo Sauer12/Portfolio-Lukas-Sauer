@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html
+        xmlns:th="http://www.thymeleaf.org"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        lang="en">
+<head>
+
+    <title>All Vaccines</title>
+
+</head>
+<body>
+
+<main>
+
+    <h2>Vaccines</h2>
+
+    <section>
+        <h3>All vaccines</h3>
+        <table class="scores">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Manufacturer</th>
+                <th>Title</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="vaccine: ${allVaccine}">
+                <td th:text="${vaccine.id}"></td>
+                <td th:text="${vaccine.manufacturer}"></td>
+                <td th:text="${vaccine.title}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+</body>
+</html>

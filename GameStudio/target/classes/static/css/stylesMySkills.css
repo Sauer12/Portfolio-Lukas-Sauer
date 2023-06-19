@@ -1,0 +1,217 @@
+/* GENERAL */
+body {
+    background-color: rgb(35, 35, 35);
+    background: url(../img/background2.jpg) no-repeat;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 { 
+    margin: 0;    
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li, a{
+   list-style: none; 
+   text-decoration: none;
+}
+
+/* HEADER */
+
+.logoContainer {
+    padding-top: 0;
+    background: url(../img/L.jpg) 2px 0px no-repeat;
+    background-color: rgb(0, 0, 0);
+    height: 210px; 
+    width: 150px;  
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    float: left;
+    /* border-right: 1px solid rgb(92, 92, 92); */
+}
+
+.logoContainer h2, .logoContainer p {
+    color:#f2f2f2;
+}
+
+.logoContainer h2 {
+    padding-top: 130px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.logoContainer p {
+    padding: 12px 0;
+    color: rgb(159, 159, 159);
+}
+
+.navContainer {
+    width: 150px;
+    background-color: rgb(11, 11, 11);
+    height: 733px;
+    font-family: 'Sawarabi Mincho', serif;
+    text-align: center;
+    padding-top: 60px;
+    z-index: 1;
+    clear: both;
+    float: left;
+    /* border-right: 1px solid rgb(92, 92, 92); */
+}
+
+.navContainer .navigation a{
+    color: rgb(159, 159, 159);
+    display: block;
+    padding: 20px 0;
+    width: 150px;
+    border-bottom: 1px solid rgb(57, 57, 57);
+    font-weight: bold;
+}
+
+/* .navContainer .first {
+    border-top: 1px solid rgb(92, 92, 92);
+} */
+
+.navigation .menu li:first-of-type a {
+    border-top: 1px solid rgb(57, 57, 57);
+}
+
+.navContainer .navigation .selected {
+    color: rgb(128, 52, 199);
+    border: none;
+    border-bottom: 1px solid rgb(128, 52, 199);
+    border-top: 1px solid rgb(128, 52, 199);
+}
+
+.navContainer a:hover,
+.navContainer a:focus {
+    color: rgb(128, 52, 199);
+}
+
+.socialMenu {
+    margin-top: 75px;
+    font-size: 0;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter {
+    color: #f2f2f2;
+    padding: 8px;
+    margin: 0;    
+    font-size: 20px;
+}
+
+.fa-facebook:hover, 
+.fa-instagram:hover,
+.fa-twitter:hover {
+    color: rgb(128, 52, 199);
+}
+
+/* MAIN */
+.skillsText {
+   float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: #f2f2f2;
+    width: 750px;
+}
+
+.skillsText h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 65px;
+    margin-bottom: 35px;
+}
+
+.skillsText p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.secondP, .thirdP {
+    margin-top: 25px;
+}
+
+.special {
+    font-weight: bold;
+    color: rgb(128, 52, 199);
+}
+
+.skillsReprezentation {
+    float: right;    
+    color: rgb(159, 159, 159);
+    margin-right: 200px;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.skillsReprezentation h2 {
+    /* padding-right: 50px; */
+    color: #f2f2f2;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+.skillsReprezentation h2:last-of-type {
+    margin-top: 60px;
+}
+
+.skillsReprezentation h3 {
+    margin: 0;
+    margin-top: 18px;   
+    margin-bottom: -5px;
+    font-size: 16px;
+}
+
+.skillsReprezentation p {
+    color: #f2f2f2;
+    font-size: 28px;
+}
+
+.level {
+    color: rgb(128, 52, 199);
+}
+
+.levelLan {
+    color: rgb(192, 16, 130);
+}
+
+/* FOOTER */
+.globalFooter {
+    clear: both;
+    margin-top: 75px;
+    height: 54px;
+    background-color: black;  
+    text-align: center;  
+}
+
+.globalFooter a {
+    color: #f2f2f2;
+}
+
+.fa-envelope, .fa-phone {
+    color: #f2f2f2;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.footerPhoneMail a{
+    margin: 14px 20px 14px 0;
+    display: inline-block;
+}
+
+.globalFooter p {
+    color: #f2f2f2;
+    float: right;
+    margin-top: -25px;
+    margin-right: 25px;
+}

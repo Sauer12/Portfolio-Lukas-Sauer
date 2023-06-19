@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gamestudio</title>
+</head>
+<body>
+<!--/*@thymesVar id="userController" type="sk.tuke.gamestudio.server.controller.UserController"*/-->
+
+<header th:fragment="header">
+    <h1>Welcome to Gamestudio</h1>
+
+    <div th:if="${@userController.isLogged()}">
+        Logged as: <span th:text="${@userController.getLoggedUser()}"/>
+        <a href="/logout">Log out</a>
+    </div>
+
+    <div th:if="not ${@userController.isLogged()}">
+        Logged out. Please,
+        <a href="/gamestudio">log in</a>
+    </div>
+</header>
+
+<footer th:fragment="footer">
+  <hr/>
+  Gamestudio version 2022/10 - By Lukáš Sauer
+</footer>
+
+</body>
+</html>

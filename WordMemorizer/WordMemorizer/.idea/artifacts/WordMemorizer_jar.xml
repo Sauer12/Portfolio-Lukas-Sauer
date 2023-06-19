@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="WordMemorizer:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/WordMemorizer_jar</output-path>
-    <root id="archive" name="WordMemorizer.jar">
-      <element id="module-output" name="WordMemorizer" />
-    </root>
-  </artifact>
-</component>
